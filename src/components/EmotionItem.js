@@ -20,4 +20,4 @@ const EmotionItem = ({
 		</div>
 	);
 };
-export default EmotionItem;
+export default React.memo(EmotionItem);
