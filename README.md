@@ -16,4 +16,6 @@
 12. localStorage를 통해 일기 데이터를 저장함.
 13. React.Memo를 사용해서 header 버튼,  DiaryItem, EmotionItem에 적용시켜서 최적화시킴.
 14. firebase를 사용해서 배포.
-15. Open Graph meta 태그에 image, site_name, description 입력하고 npm run build, firebase deploy로 마지막으로 배포.
+15. Open Graph meta 태그에 image, site_name, description 입력하고 npm run build, firebase deploy로 마지막으로 배포. (안되면 카카오 developer들어가서 캐시 삭제해줌)
+16. 
+** 입력한 시간 const create_date = new Date().getTime()을 사용해서 ms를 다시 {new Date(create_date).toLocaleString()} 로 하면 2023. 1. 6. 오후 4:42:36 이렇게 뜸!
